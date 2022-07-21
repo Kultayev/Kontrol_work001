@@ -1,15 +1,14 @@
 ﻿// Сформировать массив строк, далее вывести на экран массив, где в словах три и менее символов
 using System;
 Console.Write("Вот наш массив :\t ");
-string [] myArray = {"Hello", "bro", "how", "do", "you", "do?"};
-//string [] myArray2 = {};
+string [] myArray = {"Hello", "brother", "how", "do", "you", "do?"};
+
 string [] myArray2 = new string[myArray.Length];
 for (int k = 0; k <= 5; k++)
     {
         
         Console.Write(" " + myArray[k]); // вывод первоначального массива через пробел
-        //if (value.Length <=3)
-        //myArray2[i] = value;
+        
     }
     var i=0;
     foreach (var value in myArray)
